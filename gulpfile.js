@@ -9,6 +9,8 @@ import { clear } from "./task/clear.js";
 import { html } from "./task/html.js";
 import { scss } from "./task/scss.js";
 import { js } from "./task/js.js";
+import { img } from "./task/img.js";
+import { font } from "./task/font.js";
 
 // Плагины
 
@@ -26,12 +28,14 @@ const watch = () => {
    gulp.watch(path.html.watch, html).on("all", browserSync.reload);
    gulp.watch(path.scss.watch, scss).on("all", browserSync.reload);
    gulp.watch(path.js.watch, js).on("all", browserSync.reload);
+   gulp.watch(path.img.watch, img).on("all", browserSync.reload);
+   gulp.watch(path.font.watch, font).on("all", browserSync.reload);
 }
 
 // Сборка
 const dev = gulp.series(
    clear,
-   gulp.parallel(html, scss, js),
+   gulp.parallel(html, scss, js, img, font),
    gulp.parallel(watch, server)
 );
 

@@ -13,6 +13,7 @@ import shorthand from "gulp-shorthand";
 import CombineMedia  from "gulp-combine-media";
 import sass  from "gulp-dart-sass";
 import sassGlob  from "gulp-sass-glob";
+import webpCss  from "gulp-webp-css";
 
 // Обработка SCSS
 const scss = () => {
@@ -20,6 +21,7 @@ const scss = () => {
    .pipe(gulpPlumber())
    .pipe(sassGlob())
    .pipe(sass())
+   .pipe(webpCss())
    .pipe(autoprefixer())
    .pipe(shorthand())
    .pipe(CombineMedia())

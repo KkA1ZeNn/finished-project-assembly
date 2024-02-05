@@ -13,6 +13,7 @@ import rename from "gulp-rename";
 import size from "gulp-size";
 import shorthand from "gulp-shorthand";
 import CombineMedia  from "gulp-combine-media";
+import webpCss  from "gulp-webp-css";
 
 // Обработка CSS
 const css = () => {
@@ -20,6 +21,7 @@ const css = () => {
    .pipe(gulpPlumber())
    .pipe(concat("main.css"))
    .pipe(cssimport())
+   .pipe(webpCss())
    .pipe(autoprefixer())
    .pipe(shorthand())
    .pipe(CombineMedia())
