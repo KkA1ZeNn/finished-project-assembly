@@ -14,7 +14,7 @@ global.$ = {
 // Задачи
 import { clear } from "./gulpSettings/task/clear.js";
 import { html } from "./gulpSettings/task/html.js";
-import { scss } from "./gulpSettings/task/scss.js";
+import { css } from "./gulpSettings/task/css.js";
 import { js } from "./gulpSettings/task/js.js";
 import { img } from "./gulpSettings/task/img.js";
 import { font } from "./gulpSettings/task/font.js";
@@ -23,7 +23,7 @@ import { server } from "./gulpSettings/task/server.js";
 // Наблюдение 
 const watch = () => {
    $.gulp.watch($.path.html.watch, html).on("all", $.browserSync.reload);
-   $.gulp.watch($.path.scss.watch, scss).on("all", $.browserSync.reload);
+   $.gulp.watch($.path.css.watch, css).on("all", $.browserSync.reload);
    $.gulp.watch($.path.js.watch, js).on("all", $.browserSync.reload);
    $.gulp.watch($.path.img.watch, img).on("all", $.browserSync.reload);
    $.gulp.watch($.path.font.watch, font).on("all", $.browserSync.reload);
@@ -32,7 +32,7 @@ const watch = () => {
 // Сборка
 const build = $.gulp.series(
    clear,
-   $.gulp.parallel(html, scss, js, img, font)
+   $.gulp.parallel(html, css, js, img, font)
 );
 
 const dev = $.gulp.series(

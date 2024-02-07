@@ -16,7 +16,7 @@
   \************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/sum.js */ \"./src/js/modules/sum.js\");\n\r\n\r\nconsole.log((0,_modules_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(2, 10));\r\nconsole.log((0,_modules_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(5, 10));\n\n//# sourceURL=webpack://finished-project-assembly/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/sum.js */ \"./src/js/modules/sum.js\");\n\r\n\r\nconsole.log((0,_modules_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(2, 10));\r\nconsole.log((0,_modules_sum_js__WEBPACK_IMPORTED_MODULE_0__.sum)(5, 10));\n\n//# sourceURL=webpack://gulp-builder-for-the-webproject/./src/js/main.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \*******************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sum: function() { return /* binding */ sum; }\n/* harmony export */ });\nconst sum = (a, b) => a + b;\r\n\r\n\n\n//# sourceURL=webpack://finished-project-assembly/./src/js/modules/sum.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sum: function() { return /* binding */ sum; }\n/* harmony export */ });\nconst sum = (a, b) => a + b;\r\n\r\n\n\n//# sourceURL=webpack://gulp-builder-for-the-webproject/./src/js/modules/sum.js?");
 
 /***/ })
 

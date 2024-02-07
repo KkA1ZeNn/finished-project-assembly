@@ -1,7 +1,7 @@
 {
-  "name": "finished-project-assembly",
+  "name": "gulp-builder-for-the-webproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "Its a simple gulp build for faster and simpler creating your web project",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,9 +16,9 @@
       "@babel/preset-env"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["gulp", "builder", "build"],
+  "author": "Daniil Manuilov GIT: https://github.com/KkA1ZeNn",
+  "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.23.9",
     "browser-sync": "^3.0.2",
