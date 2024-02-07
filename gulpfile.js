@@ -1,8 +1,8 @@
 // Конфигурация 
 import  gulp  from "gulp";
 import  browserSync  from "browser-sync";
-import { path } from "./config/path.js";
-import { pluginSettings } from "./config/app.js";
+import { path } from "./gulpSettings/config/path.js";
+import { pluginSettings } from "./gulpSettings/config/app.js";
 
 global.$ = {
    gulp: gulp,
@@ -12,13 +12,13 @@ global.$ = {
 }
 
 // Задачи
-import { clear } from "./task/clear.js";
-import { html } from "./task/html.js";
-import { scss } from "./task/scss.js";
-import { js } from "./task/js.js";
-import { img } from "./task/img.js";
-import { font } from "./task/font.js";
-import { server } from "./task/server.js";
+import { clear } from "./gulpSettings/task/clear.js";
+import { html } from "./gulpSettings/task/html.js";
+import { scss } from "./gulpSettings/task/scss.js";
+import { js } from "./gulpSettings/task/js.js";
+import { img } from "./gulpSettings/task/img.js";
+import { font } from "./gulpSettings/task/font.js";
+import { server } from "./gulpSettings/task/server.js";
 
 // Наблюдение 
 const watch = () => {
@@ -41,5 +41,4 @@ const dev = $.gulp.series(
 );
 
 export { watch };
-export { html };
 export default $.pluginSettings.isProd ? build : dev;
