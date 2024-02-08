@@ -1,10 +1,6 @@
-<h1> GULP BUILDER </h1>
+# GULP BUILDER 
 
-<p> Its a simple gulp build for faster and simpler creating your web project </p>
-<p> 
-  Thaks a lot to  <a href = "https://www.youtube.com/@CodeQuestRu"> CodeQuest channel </a>
-</p>
+ Its a simple gulp build for faster and simpler creating your web project 
+ Thaks a lot to  [CodeQuest channel](https://www.youtube.com/@CodeQuestRu")
 
-***
-
-<h2> DEMO </h2>
+# DEMO
