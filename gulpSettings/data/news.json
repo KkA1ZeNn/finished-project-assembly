@@ -1,14 +1,14 @@
 [
    {
-      "name": "Первая новость",
-      "body": "Текст первой новости"
+      "name": "First news",
+      "body": "First news text"
    },
    {
-      "name": "Вторая новость",
-      "body": "Текст Второй новости"
+      "name": "Second news",
+      "body": "Text of the Second News"
    },
    {
-      "name": "Третья новость",
-      "body": "Текст Третьей новости"
+      "name": "Third news",
+      "body": "Text of the Third News"
    }
 ]

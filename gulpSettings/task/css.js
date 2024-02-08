@@ -1,4 +1,4 @@
-// Плагины
+// Plugins
 import gulpPlumber from "gulp-plumber";
 import concat from "gulp-concat";
 import cssimport from "gulp-cssimport";
@@ -10,7 +10,7 @@ import shorthand from "gulp-shorthand";
 import CombineMedia  from "gulp-combine-media";
 import webpCss  from "gulp-webp-css";
 
-// Обработка CSS
+// processing CSS here you can add your new plugins in stream
 const css = () => {
    return $.gulp.src($.path.css.src, { sourcemaps: $.pluginSettings.isDev })
    .pipe(gulpPlumber())

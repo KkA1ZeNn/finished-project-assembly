@@ -1,4 +1,4 @@
-// Плагины
+// Plugins
 import gulpPlumber from "gulp-plumber";
 import autoprefixer from "gulp-autoprefixer";
 import csso from "gulp-csso";
@@ -10,7 +10,7 @@ import sass  from "gulp-dart-sass";
 import sassGlob  from "gulp-sass-glob";
 import webpCss  from "gulp-webp-css";
 
-// Обработка SCSS
+// processing SCSS here you can add your new plugins in stream
 const scss = () => {
    return $.gulp.src($.path.scss.src, { sourcemaps: $.pluginSettings.isDev })
    .pipe(gulpPlumber())

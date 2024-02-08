@@ -1,10 +1,10 @@
-// Плагины
+// Plugins
 import gulpPlumber from "gulp-plumber";
 import babel from "gulp-babel";
 import webpack from "webpack-stream";
 
 
-// Обработка JS
+// processing JS here you can add your new plugins in stream
 const js = () => {
    return $.gulp.src($.path.js.src, { sourcemaps: $.pluginSettings.isDev })
    .pipe(gulpPlumber())

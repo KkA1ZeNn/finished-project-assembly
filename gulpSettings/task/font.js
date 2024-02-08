@@ -1,11 +1,11 @@
-// Плагины
+// Plugins
 import gulpPlumber from "gulp-plumber";
 import newer from "gulp-newer";
 import fonter from "gulp-fonter";
 import ttf2woff2 from "gulp-ttf2woff2";
 
 
-// Обработка Шрифтов
+// processing Fonts, here you can add your new plugins in stream
 const font = () => {
    return $.gulp.src($.path.font.src)
    .pipe(gulpPlumber())

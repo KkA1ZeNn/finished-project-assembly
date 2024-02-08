@@ -1,6 +1,6 @@
 import { deleteAsync } from "del";
 
-// Удаление директории
+// Delete the dir
 const clear = () => {
    return deleteAsync($.path.root);
 }

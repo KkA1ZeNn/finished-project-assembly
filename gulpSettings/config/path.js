@@ -1,6 +1,7 @@
 const pathSrc = "./src";
 const pathDest = "./public";
 
+// add here paths to your new or replaced files
 const path = {
    root: pathDest,
 
