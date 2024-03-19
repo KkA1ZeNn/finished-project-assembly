@@ -48,4 +48,6 @@ But actually, when you use `npm start` in terminal, builder will start live serv
 Dont forget to change all paths to files, which you add or change!!!
 Also you need to change paths in index html to your css or scss if you change it!!!
 
+Sometimes `npm build` doesnt work. If you see this problem, try to use `npm run build` instead.
+
 Sometimes when your Live Server is running and you add some new files to your project and change some paths, Live Server breaks and cant show you changes. I dont know why does it happen but to fix it, you just need to reload your Live Server: Press `Ctrl + C` in terminal to exit and after that use `npm start` again
